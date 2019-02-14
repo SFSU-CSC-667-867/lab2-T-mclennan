@@ -1,0 +1,22 @@
+{
+  "name": "lab2-t-mclennan",
+  "version": "1.0.0",
+  "description": "- https://docs.npmjs.com/",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SFSU-CSC-667-867/lab2-T-mclennan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SFSU-CSC-667-867/lab2-T-mclennan/issues"
+  },
+  "homepage": "https://github.com/SFSU-CSC-667-867/lab2-T-mclennan#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
