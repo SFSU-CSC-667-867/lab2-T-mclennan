@@ -18,7 +18,7 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 app.get('/network', (req, res) => {
     axios.get('http://localhost:3001/world')
-    .then((res) => {
+    .then((networkResponse) => {
         res.send(networkResponse.data);
     })
     .catch(() => {
